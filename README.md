@@ -1,16 +1,45 @@
-# React + Vite
+Qura Docs – Modern Note-Taking App (React + LocalStorage)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Qura Docs is a clean and modern note-taking web application built using React.js and Tailwind CSS.
+It allows users to create, edit, and delete notes with automatic saving using the browser’s LocalStorage — ensuring your notes stay even after refresh.
 
-Currently, two official plugins are available:
+🚀 Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🆕 Create new notes
 
-## React Compiler
+✏️ Edit existing notes
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+🗑 Delete notes with one click
 
-## Expanding the ESLint configuration
+💾 Auto-save notes using LocalStorage
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+📅 Shows last updated date
+
+🎨 Beautiful, responsive UI (Tailwind CSS)
+
+⚡ Smooth animations and transitions
+
+📱 Fully mobile-friendly
+
+📂 Organized note grid layout
+
+🧭 Simple & clean interface inspired by modern documentation tools
+
+🛠️ Tech Stack
+
+React.js – Components, Hooks (useState, useEffect)
+
+Tailwind CSS – Styling, layout, responsiveness
+
+Lucide-React – Modern icons
+
+LocalStorage – Persistent data saving
+
+JavaScript (ES6+)
+
+📂 Project Structure
+src/
+ ├── components/     # (If added later)
+ ├── App.jsx         # Main application
+ ├── index.js
+ └── styles/         # Tailwind / CSS
